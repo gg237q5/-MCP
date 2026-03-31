@@ -1,0 +1,44 @@
+Please design a water-ethanol separation flow chart in Aspen Plus. The feed flow rate of the water-ethanol separation unit is 20,000 kg/h, and the ethanol content is 11 wt%. The process is designed to purify ethanol to 99.5 wt% of the liquid distillate by Pressure-Swing Distillation. 
+
+Think and describe in detail how to design Pressure-Swing Distillation Processs, including the specifications and connections of the streams and blocks, as well as the detailed settings.
+Build the corresponding Aspen Plus model by MCP tools and generate the simulation file.
+Execute the simulation and verify that the model runs successfully.
+Use mass units as the basis for all settings, including mass flow rate (kg/h) and composition in mass fraction (wt%).
+Save the file on ".\CaseStudies\Water_Ethanol_Separation_99.5percent_PSD_add_NoRef_4\"
+Track overall time and report it.
+Please complete the Aspen modeling process in multiple stages, PAUSE - Wait for "Next" after each stage unit. The stages are: (1). Thinking; (2). Adding Matter, Thermodynamics, and Basic Settings; (3). Adding Logistics; (4). Adding Unit Devices; (5). Setting Logistics;(6). Setting Unit Devices; (7). Checking and Running.
+After completing the process design and simulation, please summarize the results in the following two tables. Fill in all fields based on the current design output. Table 1: System Metrics Metric Claude + MCP Output Total Tool Calls Block Count Stream Count Thermodynamic Model Feed Conditions Column Specification Target Product Purity Simulation Status Manual Edits Needed Table 2: Evaluation Metrics Evaluation Metric Result Semantic Matching Accuracy Simulation Convergence Product Purity Error Overall Time (LLM+MCP) Make sure the results reflect the actual process flow and simulation outcome. If any data is missing or uncertain, mark it clearly. Format your answer clearly as two tables, and ensure all numerical results are realistic and consistent with the process.
+
+
+
+
+Implement the IPA separation process shown in the uploaded figure (CED+CYCLE+MAKEUP), following the methodology described in the IPA paper and Optimization Specifications(SA (3rd
+turn)) on Table 5, using Aspen Plus.
+1. Think and describe in detail including the specifications (like Reboiler, Condenser, and Top Pressure) and connections of the streams and blocks, as well as the detailed settings.
+2. Build the corresponding Aspen Plus model and generate the simulation file. 
+3. Execute the simulation and verify that the model runs successfully.  
+4. Save the file on "D:\Aspen_MCP\CaseStudies\IPA_NoRef_1\"
+5. Track overall time from the beginning to the end and report it.
+6. Please complete the Aspen modeling process in multiple stages, PAUSE - Wait for "Next" after each stage unit. The stages are: (1). Thinking; (2). Adding Matter, Thermodynamics, and Basic Settings; (3). Adding Logistics; (4). Adding Unit Devices; (5). Setting Logistics;(6). Setting Unit Devices; (7). Checking and Running.
+7. After completing the process design and simulation, please summarize the results in the following two tables. Fill in all fields based on the current design output.
+Table 1: System Metrics
+Metric    Claude + MCP Output    Paper
+Total Tool Calls    
+Block Count    
+Stream Count    
+Thermodynamic Model    
+Feed Conditions 
+Column Specification   
+Target Product Purity    
+Simulation Status    
+Manual Edits Needed  
+  
+Table 2: Evaluation Metrics
+Evaluation Metric    Result
+Semantic Matching Accuracy    
+Simulation Convergence    
+Product Purity Error    
+Overall Time (LLM+MCP)   
+Make sure the results reflect the actual process flow and simulation outcome. If any data is missing or uncertain, mark it clearly.
+Format your answer clearly as two tables, and ensure all numerical results are realistic and consistent with the process.
+
